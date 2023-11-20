@@ -1,0 +1,233 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
+    }
+    ul {
+    list-style: none;
+    }
+    a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    }
+    img {
+    display: block;
+    width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    letter-spacing: 1px;
+    }
+    body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: #373737;
+    background: #f7f7f7;
+    }
+    /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
+    header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+    content: "";
+    display: table;
+    clear: both;
+    } 
+
+
+
+.glav {
+
+}
+
+
+.maincont {
+    display: flex;
+    flex-direction: column;
+    width: 1397px;
+    min-height: 100vh;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+ .top {
+    display: flex;
+    width: 1397px;
+    height: 112px;
+    margin: 0 auto;
+    border: 0,15px solid black;
+    align-items: center;
+    justify-content: center;
+ }
+.bk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 52px;
+    color: white;
+    background: #FB4B4D;
+    margin-left: 10px;
+}
+.str {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 52px;
+    color: black;
+    
+}
+.shp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 52px;
+
+}
+
+.dot1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 19px
+}
+.dot2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 19px;
+        height: 19px;
+    } 
+
+.fire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58.83px;
+    height: 67.51px;
+}
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 52px;
+    
+}
+.who {display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 177px;
+    height: 52px;
+    
+}
+.clon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 52px;
+    color: white;
+    background: #FB4B4D;
+
+}
+
+.icons-container {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.bottomBlock {
+    width: 100%;
+    display: flex;
+    height: 989px;
+    border: 1px solid black;
+}
+.arab {
+    display: flex;
+    width: 50%;
+    height: 383px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.coffe {
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+    align-self: center;
+    font-size: 45px;
+    margin-left: 30px;
+    text-align: center;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 65px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+color: #000000;
+border: 1px solid black ;   
+}
+
+.bottomBlock__firsrtblock {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.bottomBlock__secondblock {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.bottomBlock__firsrtblock__firstPicture{
+    width: 100%;
+    height: 424px;
+    border: 1px solid black;
+}
+
+.bottomBlock__firsrtblock__runningLine {
+    width: 100%;
+    height: 78px;
+    border: 1px solid black;
+}
+.bottomBlock__firsrtblock__runningLine_firstText {
+    position: absolute;
+    width: 262px;
+    height: 26px;
+    /* left: calc(50% - 262px/2 + 266.62px);
+    top: calc(50% - 26px/2 - 0.94px); */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+}
+.bottomBlock__firsrtblock__runningLine__firstPicrute {
+    position: absolute;
+    width: 68px;
+    height: 31px;
+}
+
+.bottomBlock__firsrtblock__secondPicture {
+    width: 100%;
+    height: 436px;
+    border: 1px solid black;
+}
